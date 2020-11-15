@@ -8,3 +8,6 @@ These commands will be used frequently to be a professional in github
 ### this is the staging area that we are checking the status of the files whether they are staged or not.
 
 to unstage a file: git reset head <the file name>
+
+### from the staging to do commit to the local repo 
+git commit -m "the message you want to write."
