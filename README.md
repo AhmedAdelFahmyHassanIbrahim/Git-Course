@@ -11,3 +11,12 @@ to unstage a file: git reset head <the file name>
 
 ### from the staging to do commit to the local repo 
 git commit -m "the message you want to write."
+
+### to know all the branches of the reop
+git branch
+
+### to push to the remote repo
+git push REMOTENAME BRANCHNAME
+
+### to know the remote name
+git remote -v
