@@ -20,3 +20,14 @@ git push REMOTENAME BRANCHNAME
 
 ### to know the remote name
 git remote -v
+
+### pulling changes
+git pull REMOTENAME
+
+### to get the configuartion available
+git config -l
+
+### how to deal with the public keys
+ssh-keygen -t rsa -b 4096 -C "the email you want"
+to test test the SSH key
+ssh -T git@github.com
